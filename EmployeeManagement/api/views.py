@@ -7,9 +7,10 @@ from rest_framework.response import Response
 
 from django.shortcuts import get_object_or_404
 from .services import EmployeeService
-
+from rest_framework.permissions import IsAuthenticated
 
 class EmployeeViewSet(viewsets.ViewSet):
+    permission_classes = [IsAuthenticated]
 
     def list(self, request):
         employees = Employee.objects.all()
