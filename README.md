@@ -12,7 +12,7 @@ It provides full **CRUD (Create, Read, Update, Delete)** functionality for manag
 The objective of this project is to implement RESTful APIs for managing employees with proper separation of concerns using:
 
 - Django REST Framework
-- Explicit URL mappings (no routers)
+- Explicit URL mappings
 - Layered architecture (Views, Serializers, Services, Managers, Models)
 
 ---
@@ -28,7 +28,4 @@ The system supports the following operations:
 - Update Employee – Partial Update (PATCH)
 - Delete Employee (DELETE)
 
----
-
-## Architecture
 
