@@ -1,0 +1,69 @@
+/* Page container */
+.admin-container {
+  min-height: 100vh;
+  padding: 40px;
+  background: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page title */
+.admin-container h1 {
+  margin-bottom: 30px;
+  color: #1f2937;
+}
+
+/* Section card */
+.admin-card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 30px;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+.admin-card h2 {
+  margin-bottom: 15px;
+  color: #374151;
+}
+
+/* Inputs */
+.admin-card input {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.admin-card input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* Buttons */
+.admin-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-card button:hover {
+  background: #4338ca;
+}
+
+/* Divider */
+.admin-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 30px 0;
+}

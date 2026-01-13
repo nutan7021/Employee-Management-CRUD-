@@ -1,0 +1,67 @@
+
+/* Center the login card */
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Login box */
+.login-box {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.login-box input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-box input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* Login button */
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #4338ca;
+}
+
+/* Error message */
+.login-error {
+  margin-top: 10px;
+  text-align: center;
+  color: #dc2626;
+  font-size: 14px;
+}
